@@ -1,0 +1,36 @@
+@import "../../styles/app";
+
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}
+
+.custom_modal_content {
+  background-color: black;
+}
+
+.container {
+  padding: 30px 24px 20px;
+  color: white;
+  position: relative;
+}
+
+.copy_icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: white;
+  cursor: pointer;
+}
+
+.copy_icon:hover {
+  color: lightgray;
+}

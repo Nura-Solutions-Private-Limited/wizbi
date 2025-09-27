@@ -1,0 +1,116 @@
+{
+<<<<<<< HEAD
+  "name": "wizbi",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://192.168.1.9:8080",
+  "dependencies": {
+    "@codemirror/lang-json": "^6.0.1",
+    "@codemirror/state": "^6.4.1",
+    "@codemirror/view": "^6.34.1",
+    "@tanstack/react-query": "^5.74.11",
+    "@tanstack/react-query-devtools": "^5.74.11",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/node-sass": "^4.11.8",
+    "@uiw/react-codemirror": "^4.23.5",
+    "antd": "^5.15.4",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "codemirror": "^6.0.1",
+    "cron-parser": "^4.9.0",
+    "font-awesome": "^4.7.0",
+    "glyphicons-halflings": "^1.9.1",
+    "jsoneditor": "^10.0.0",
+    "lodash": "^4.17.21",
+    "pretty-bytes": "^6.1.1",
+    "primeicons": "^6.0.1",
+    "primereact": "latest",
+    "react": "^18.2.0",
+    "react-animate-height": "^3.1.1",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dom": "^18.2.0",
+    "react-flow-renderer": "^10.3.17",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.2.3",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "sass-loader": "^13.2.2",
+    "uuid": "^9.0.0",
+=======
+  "name": "wizbi-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.68",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+>>>>>>> f51b7047a2043655136d40320d507721426366cb
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+<<<<<<< HEAD
+    "lint": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx src",
+    "lint:fix": "eslint --ignore-path .gitignore --ext .js,.jsx,.ts,.tsx src --fix",
+    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'"
+=======
+    "lint": "eslint src --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint src --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "type-check": "tsc --noEmit"
+>>>>>>> f51b7047a2043655136d40320d507721426366cb
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "eslint": "^8.54.0",
+    "prettier": "^3.1.0",
+    "sass": "^1.83.1"
+  }
+}
+=======
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": "^8.54.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^3.1.0"
+  },
+  "proxy": "http://localhost:8000"
+}
+>>>>>>> f51b7047a2043655136d40320d507721426366cb

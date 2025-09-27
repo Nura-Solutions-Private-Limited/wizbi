@@ -1,0 +1,7 @@
+{
+    "signUp": false,
+    "forgotPasswordLink": false,
+    "isProdAirflow": false,
+    "prod_airflowURL": "https://wizbi.nura-solutions.com/airflow/home",
+    "airflowURL": "http://172.31.51.129/home"
+}

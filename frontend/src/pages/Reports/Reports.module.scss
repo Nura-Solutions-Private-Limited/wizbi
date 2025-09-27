@@ -1,0 +1,23 @@
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}
+.GIcon {
+  width: 40px;
+  height: auto;
+  display: inline-block;
+  min-height: 30px;
+  background: url('../../assets/GIcon.png') 90% center / cover no-repeat;
+}
+
+.pipelineItem:hover {
+  background-color: #4b7d8133;
+}

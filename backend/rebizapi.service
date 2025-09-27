@@ -1,0 +1,21 @@
+[Unit]
+
+Description=Gunicorn Daemon for Rebiz API
+
+After=network.target
+
+
+[Service]
+
+User=dev
+
+Group=dev
+
+WorkingDirectory=/home/dev/ReBiz-1.0/backend
+
+ExecStart=/home/dev/ReBiz-1.0/rebiz-venv/bin/gunicorn -c gunicorn_config.py main:app
+
+
+[Install]
+
+WantedBy=multi-user.target

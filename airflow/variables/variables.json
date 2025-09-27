@@ -1,0 +1,17 @@
+{
+    "aws_access_key_id": "test",
+    "aws_region": "us-east-2",
+    "aws_secret_access_key": "test",
+    "cosmos_cache__iceberg_test_2_1020__dbt_task": {
+        "cosmos_type": "DbtTaskGroup",
+        "dag_id": "iceberg_test_2_1020",
+        "dbt_ls_compressed": "eJyFU8uO2zAMvO8v7EXwOU03aVq0AXrtB/S6KARaomUhNqnogUUa5N9L24md3aLdm2QNZ8gZ+vH5qd982m+3+91OqZ+FyJNTLz63ytb5+2b9db19eHwNQudTxohWgYUgp72yxRxsPcI39/DPSv3gQlZtVM8Wu5UcOGCE7JlWavf0RfVgIqeHc0XQY7VXlTdYY3R6+83VuoaEDUTUqfTVSlURE5doUOdTGNEj7fASwBzAoX5LkzFlvdUyzYDi6J0n6HTjO9QBcjuTpI//VF6n46hRyB8Lam/novXfMuv/DgCdh/TumIap8U5g5woJ6g4HxRwL3jFQ6cTPKpkWe1juFjIMdMuXDG7AP/+Sc495wJ4vcnaRS1hgPUiUXth/j2pSJrpDM55MxB4pi20pS3boTkuZpJlkH7Rlk27MgVP+0DIfbrIh4qv7sXCWRbvhDXelpzHTmaMReh2xkcTbRe2awAHvOmDSkwnatEBuSt8Rx7F7eZ3cLNPW3YEghO5UjU4A5aX7aZNmz26TVanllyUHkvyFuuN4bWWahMQhk6/RNSy7OrjZQJfm8OZBB6ahCozBNG5FiJzRZKm5vEnOYkCySTON3NNvc3scepkul8vDHxoeQ2w=",
+        "last_modified": "2024-12-24T13:22:46.899976+00:00",
+        "task_group_id": "dbt_task",
+        "version": "0ae7ee437d8cd92c593154b16e19ff17,f8cb74e6fc981bbb0347808ec7295349"
+    },
+    "dbt_executable_path": "/home/airflow/.local/bin/dbt",
+    "dbt_profile_name": "test",
+    "dbt_profile_path": "/root/.dbt/profiles.yml",
+    "dbt_target_name": "dev"
+}

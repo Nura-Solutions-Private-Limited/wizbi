@@ -1,0 +1,38 @@
+@import '../../styles/app';
+
+.root {
+  background: $header-main;
+  @media (max-width: breakpoint-max(sm)) {
+    margin-bottom: 50px;
+  }
+}
+
+.brand {
+  margin-left: 10px;
+  color: inherit;
+}
+
+.headerIcon {
+  fill: #fff !important;
+  g {
+    fill: #fff !important;
+  }
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+  background: $sidebar-color;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 10px;
+
+  img,
+  i {
+    height: 100%;
+  }
+}

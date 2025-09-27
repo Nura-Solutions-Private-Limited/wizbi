@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS wizbi_db;
+CREATE USER IF NOT EXISTS 'wizbi_user'@'%' IDENTIFIED BY 'wizbi_password';
+GRANT ALL PRIVILEGES ON wizbi_db.* TO 'wizbi_user'@'%';
+FLUSH PRIVILEGES;

@@ -1,0 +1,187 @@
+.auth-page {
+  // padding-top: 10vh;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.auth-bg {
+  background: url('/assets/wizBI_bg_2.jpg') 90% center / cover no-repeat;
+  color: rgb(255, 255, 255);
+  min-height: 100vh;
+  // width: 100%;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.auth-container{
+  background: url('./../assets/wavy patterns.png') 90% center / cover no-repeat;
+  // .navbar-brand{
+  //   margin-top: 130px;
+  //   margin-bottom: 30px;
+  // }
+}
+
+.rebiz-logo {
+  box-sizing: border-box;
+  flex: 0 0 256px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  display: flex;
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.widget-auth {
+  // max-width: 385px;
+  padding-left: 60px;
+  padding-right: 60px;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: $font-weight-normal;
+    text-align: center;
+  }
+
+  .widget-auth-info {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  .auth-btn {
+    margin-top: $spacer;
+
+    .auth-btn-circle {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .auth-widget-footer {
+    display: flex;
+    flex-direction: column;
+    margin: 0 (-$widget-padding-horizontal) (-$widget-padding-vertical);
+    padding: 0 $widget-padding-horizontal;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: hidden;
+  }
+}
+
+.auth-footer {
+  font-size: 12px;
+  color: #636c72;
+  text-align: center;
+  bottom: 10px;
+  right: 0;
+
+  @media (min-height: 600px) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.sign-in {
+  background-color: $main-bg-color;
+
+  &:hover {
+    background-color: $main-bg-color;
+  }
+
+  &:active {
+    background-color: $main-bg-color !important;
+  }
+}
+
+.auth-more-info {
+  box-sizing: border-box;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex: 1 0 100px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+}
+
+
+.card {
+  border: none;
+  background-color: #fff;
+}
+
+.forms-inputs {
+  position: relative
+}
+
+.forms-inputs span {
+  position: absolute;
+  top: -18px;
+  left: 10px;
+  background-color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.60);
+  font-weight: 400;
+}
+
+.forms-inputs input {
+  height: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.60);
+  color: #000;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+    border: 2px solid $main-bg-color;
+    color: #000;
+  }
+
+  &:-internal-autofill-selected {
+    background-color: #fff;
+  }
+}
+
+
+.btn {
+  height: 48px
+}
+
+.success-data {
+  display: flex;
+  flex-direction: column
+}
+
+.bxs-badge-check {
+  font-size: 90px
+}
+
+.dashboard-WizBI {
+  // color:$main-bg-color;
+  color: #192223;
+}
+
+.brand{
+  small{
+    font-size: 12px;
+  }
+}

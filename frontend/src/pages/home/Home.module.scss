@@ -1,0 +1,46 @@
+@import '../../styles/app';
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+    }
+  }
+}
+
+.dashCard {
+  transform: rotate(180deg);
+}
+
+.dashCardCont {
+  img {
+    transition: 0.5s all ease-in-out;
+  }
+}
+
+.dashCardImg {
+  width: 80px;
+  height: 80px;
+}
+
+.dashEng {
+  width: 350px;
+  height: auto;
+}
+
+.processImg {
+  top: -15px;
+  z-index: 999;
+  width: 350px;
+}
+
+.menuIcon {
+  fill: #44767a;
+  width: 30px;
+  height: 30px;
+}
+.dashboardItem{
+  border-left: 5px solid #498084 !important
+}

@@ -1,0 +1,10 @@
+.root {
+  height: calc(100vh - 60px);
+  .wrapper {
+    .widgetBodyClass {
+      height: calc(100vh - 190px);
+      background-color: #fff;
+      overflow: auto;
+    }
+  }
+}

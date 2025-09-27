@@ -1,0 +1,271 @@
+@import "../../styles/app";
+
+.root {
+  width: $sidebar-width-open;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  background-color: $sidebar-bg-color;
+  // background-color: #355541d4;
+  // background: transparent;
+  color: $sidebar-color;
+  // margin-left: 10px;
+  transition: width 1s;
+  transform: translateX(-$sidebar-width-closed);
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  @media print {
+    display: none;
+  }
+
+  :global(.sidebar-right) & {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: 10px;
+    transform: translateX($sidebar-width-closed);
+  }
+
+  :global(.sidebar-hide) & {
+    display: none;
+  }
+
+  @include scroll-bar($sidebar-scrollbar-bg);
+
+  @media (max-width: breakpoint-max(sm)) {
+    position: static !important;
+    width: 100%;
+    margin-left: 0;
+    padding: 0 15px;
+    height: 0;
+    transform: none;
+
+    .logo,
+    .sidebarAlerts,
+    .sidebarLabels,
+    .navTitle {
+      display: none;
+    }
+  }
+}
+
+.logo {
+  margin: 15px 0;
+  font-size: 18px;
+  width: 100%;
+  font-weight: $font-weight-normal;
+  text-align: center;
+
+  a {
+    // color: $icon-color;
+    // padding: 0 5px;
+    text-decoration: none;
+    // gap: 20px;
+    // white-space: nowrap;
+  }
+}
+
+.customLink {
+  margin-top: auto;
+  a {
+    position: relative;
+    align-items: center;
+    padding: 8px 10px;
+    border-top: 1px solid transparent;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    justify-content: left;
+    color: #498084;
+    text-decoration: none;
+    cursor: pointer;
+    span {
+      margin-right: 0.5rem;
+      min-height: 32px;
+      min-width: 32px;
+      text-align: center;
+    }
+  }
+}
+
+.sidebarOpen {
+  width: $sidebar-width-open;
+  transition: width 1s;
+  transform: translateX(-$sidebar-width-open);
+}
+
+.sidebarClose .logo {
+  width: $sidebar-width-open;
+}
+
+.staticSidebar .logo {
+  width: 100%;
+  transition: none;
+}
+
+.nav {
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex: 1;
+  // height: calc(100% - 55px);
+  li {
+    width: 100%;
+  }
+
+  li > a > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+  }
+}
+
+.navTitle {
+  margin: 25px 0 5px 20px;
+  font-size: 13px;
+  font-weight: $font-weight-bold;
+  color: #a5a7b850;
+  transition: opacity $sidebar-transition-time ease-in-out;
+
+  @media (min-width: breakpoint-min(lg)) {
+    opacity: 1;
+  }
+}
+
+.sidebarClose .navTitle {
+  opacity: 0;
+}
+
+.staticSidebar .navTitle {
+  opacity: 1;
+  transition: none;
+}
+
+.actionLink {
+  color: #aaa;
+  float: right;
+  margin-right: 15px;
+  margin-top: -1px;
+}
+
+.labelName {
+  font-size: 1rem;
+  margin-left: 10px;
+  font-weight: $font-weight-thin;
+  color: $main-gray;
+  opacity: 1;
+  transition: opacity $sidebar-transition-time ease-in-out;
+}
+
+.sidebarClose .labelName {
+  opacity: 0;
+}
+
+.staticSidebar .labelName {
+  transition: none;
+  opacity: 1;
+}
+
+.glyphiconSm {
+  font-size: 9px;
+}
+
+.sidebarLabels {
+  list-style-type: none;
+  padding: 15px 20px;
+  padding-right: 15px;
+
+  > li + li {
+    margin-top: 20px;
+  }
+
+  li > a {
+    font-size: $font-size-mini;
+    color: $sidebar-color;
+    text-decoration: none;
+
+    > i {
+      font-size: 6px;
+      vertical-align: 2px;
+      transition: margin-left $sidebar-transition-time ease-in-out;
+    }
+  }
+}
+
+.sidebarClose {
+  .sidebarLabels > li > a > i {
+    margin-left: 8px;
+    transition: margin-left $sidebar-transition-time ease-in-out;
+  }
+}
+
+.staticSidebar {
+  .sidebarLabels > li > a > i {
+    transition: none;
+    margin-left: 0;
+  }
+}
+
+.sidebarAlerts {
+  margin-top: 15px;
+  margin-bottom: $spacer * 2;
+  transition: opacity $sidebar-transition-time ease-in-out;
+  opacity: 1;
+}
+
+.sidebarClose .sidebarAlerts {
+  opacity: 0;
+}
+
+.staticSidebar .sidebarAlerts {
+  opacity: 1;
+  transition: none;
+}
+
+.sidebarAlert {
+  font-size: $font-size-mini;
+  font-weight: $font-weight-normal;
+  background: transparent;
+  color: $main-gray;
+  margin-bottom: 0;
+  margin-right: 2px;
+  padding: 0.5rem 11px 0.5rem 10px !important;
+  padding-right: 15px;
+
+  button > span {
+    color: $icon-color;
+    font-weight: $font-weight-normal;
+  }
+
+  .alertFooter {
+    color: #a5a7b850;
+  }
+}
+
+.groupTitle {
+  margin-bottom: 15px;
+}
+
+.menuIcon {
+  fill: $icon-color;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img,
+  i {
+    height: 100%;
+  }
+}

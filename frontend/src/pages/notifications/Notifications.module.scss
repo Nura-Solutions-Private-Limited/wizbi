@@ -1,0 +1,12 @@
+.root {
+  height: 400px;
+  width: 500px;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}

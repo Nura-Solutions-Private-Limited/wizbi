@@ -1,0 +1,1590 @@
+[
+    {
+        "Table_schema": "wizbi_staging2",
+        "Tables": [
+            {
+                "TableName": "P",
+                "Columns": [
+                    {
+                        "ColumnName": "application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "title",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_date_u_s_11a_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "field_of_invention",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "classification_ipc_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "additional_email_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_updated_online_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "request_for_examination_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "first_examination_report_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "date_of_certificate_issue",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "post_grant_journal_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "reply_to_fer_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "P2010",
+                "Columns": [
+                    {
+                        "ColumnName": "application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "title",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_date_u_s_11a_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "field_of_invention",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "classification_ipc_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "additional_email_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_updated_online_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "request_for_examination_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "first_examination_report_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "date_of_certificate_issue",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "post_grant_journal_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "reply_to_fer_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "P2011",
+                "Columns": [
+                    {
+                        "ColumnName": "application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "title",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_date_u_s_11a_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "field_of_invention",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "classification_ipc_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "additional_email_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_updated_online_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "request_for_examination_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "first_examination_report_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "date_of_certificate_issue",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "post_grant_journal_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "reply_to_fer_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "P2019",
+                "Columns": [
+                    {
+                        "ColumnName": "application_number",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "title",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_date_u_s_11a_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "publication_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "priority_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "field_of_invention",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "classification_ipc_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "inventor_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_name",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_address",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "applicant_nationality",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_type",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "additional_email_as_per_record_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "e_mail_updated_online_",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "parent_application_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "request_for_examination_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "first_examination_report_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "date_of_certificate_issue",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "post_grant_journal_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "reply_to_fer_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_application_number",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "pct_international_filing_date",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "application_status",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "co2_production",
+                "Columns": [
+                    {
+                        "ColumnName": "iso3",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdicode",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "region",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_rank_2021",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1990",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1991",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1992",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1993",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1994",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1995",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1996",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1997",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1998",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_1999",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2000",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2001",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2002",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2003",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2004",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2005",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2006",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2007",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2008",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2009",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2010",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2011",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2012",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2013",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2014",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2015",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2016",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2017",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2018",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2019",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2020",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "co2_prod_2021",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "gross_national_income_per_capi",
+                "Columns": [
+                    {
+                        "ColumnName": "iso3",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdicode",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "region",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_rank_2021",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1990",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1991",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1992",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1993",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1994",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1995",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1996",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1997",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1998",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_1999",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2000",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2001",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2002",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2003",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2004",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2005",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2006",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2007",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2008",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2009",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2010",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2011",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2012",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2013",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2014",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2015",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2016",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2017",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2018",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2019",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2020",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "gnipc_2021",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            },
+            {
+                "TableName": "human_development_index",
+                "Columns": [
+                    {
+                        "ColumnName": "iso3",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "country",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdicode",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "region",
+                        "ColumnType": "TEXT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_rank_2021",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1990",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1991",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1992",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1993",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1994",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1995",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1996",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1997",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1998",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_1999",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2000",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2001",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2002",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2003",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2004",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2005",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2006",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2007",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2008",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2009",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2010",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2011",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2012",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2013",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2014",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2015",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2016",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2017",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2018",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2019",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2020",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "hdi_2021",
+                        "ColumnType": "DOUBLE",
+                        "isPrimaryKey": false,
+                        "ForeignKey": []
+                    },
+                    {
+                        "ColumnName": "wizbi_st_id",
+                        "ColumnType": "BIGINT",
+                        "isPrimaryKey": true,
+                        "ForeignKey": []
+                    }
+                ]
+            }
+        ]
+    }
+]

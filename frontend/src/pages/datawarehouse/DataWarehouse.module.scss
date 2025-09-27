@@ -1,0 +1,56 @@
+@import "../../styles/app";
+
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}
+
+
+
+.adjustHeight {
+  height: calc(100vh - 150px) !important;
+}
+
+.file-preview-container {
+  display: flex;
+  width: 100%;
+}
+
+.table-container {
+  padding: 10px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 1;
+  padding: 10px;
+  top: 0;
+}
+
+.datalakeHeading {
+  margin: 16px;
+}
+
+.filterGroupByContainer,
+.filterAgregateByContainer {
+  font-weight: bold;
+}
+
+.filterGroupByContainer {
+  margin-top: 12px;
+}

@@ -1,0 +1,69 @@
+@import "../../styles/app";
+
+.root {
+  height: 100%;
+  position: relative;
+  left: 0;
+  transition: left $sidebar-transition-time ease-in-out;
+}
+
+.wrap {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  margin-left: $sidebar-width-open;
+  flex-direction: column;
+  transition: left $sidebar-transition-time ease-in-out;
+
+  @media print {
+    margin: 0;
+  }
+
+  @media (max-width: breakpoint-max(sm)) {
+    margin-left: 0;
+    left: 0;
+  }
+
+  :global(.sidebar-right) & {
+    margin-left: 0;
+    margin-right: $sidebar-width-closed;
+  }
+
+  :global(.sidebar-hide) & {
+    margin: 0;
+  }
+}
+
+.sidebarClosed {
+  margin-left: $sidebar-width-closed;
+}
+
+.content {
+  position: relative;
+  flex-grow: 1;
+  overflow-x: hidden;
+  overflow-y: auto;
+  // 20px for footer height
+  // padding: 25px $content-padding (
+  //   $content-padding + 20px
+  // );
+
+  @media (max-width: breakpoint-max(sm)) {
+    padding: 20px 15px;
+  }
+
+  // hammers disallows text selection, allowing it for large screens
+  @media (min-width: breakpoint-min(sm)) {
+    user-select: auto !important;
+  }
+
+  background-color: #f4f5f6; //#fff;
+}
+
+.contentFooter {
+  color: $text-muted;
+  font-size: 12px;
+  background-color: #042b2e !important;
+  height: 40px;
+  bottom: 0;
+}

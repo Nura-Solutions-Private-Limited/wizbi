@@ -1,0 +1,19 @@
+@import '../../styles/app';
+
+.bottomWrapper {
+    bottom: 6%;
+    z-index: 1;
+
+    .bottomNav {
+        background-color: #042b2e !important;
+        border-radius: 5px;
+    }
+}
+
+.adminNav {
+    background: #042b2e !important;
+}
+
+.active {
+    border-bottom: 5px solid #ffc107 !important;
+}

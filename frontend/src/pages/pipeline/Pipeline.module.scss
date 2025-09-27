@@ -1,0 +1,53 @@
+@import '../../styles/app';
+
+// .root {
+//   height: calc(100vh - 120px);
+//   .wrapper {
+//     .widgetBodyClass {
+//       height: calc(100vh - 180px);
+//       background-color: #fff;
+//       overflow: auto;
+//     }
+//   }
+// }
+
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}
+
+.menuIcon {
+  width: 15px;
+  height: 15px;
+}
+
+.airflowIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.popupFooter {
+  position: absolute;
+  bottom: 0;
+}
+
+.pipelineItem:hover {
+  background-color: #4b7d8133;
+}
+
+.sbtBtn {
+
+  &button:enabled:hover,
+  .p-button:not(button):not(a):not(.p-disabled):hover {
+    background: $main-bg-color;
+    border-color: $main-bg-color;
+  }
+}

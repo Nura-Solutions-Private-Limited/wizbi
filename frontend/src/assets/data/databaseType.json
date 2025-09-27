@@ -1,0 +1,62 @@
+[
+    {
+        "name": "MySQL",
+        "icon": "mysql",
+        "source": "database",
+        "id": "mysql"
+    },
+    {
+        "name": "Postgres",
+        "icon": "postgres",
+        "id": "postgres",
+        "source": "database"
+    },
+    {
+        "name": "Microsoft SQL Server",
+        "icon": "sqlserver",
+        "id": "sqlserver",
+        "source": "database"
+    },
+    {
+        "name": "Redshift",
+        "icon": "redshift",
+        "id": "redshift",
+        "source": "database"
+    },
+    {
+        "name": "Amazon S3",
+        "icon": "s3",
+        "id": "s3",
+        "source": "csv"
+    },
+    {
+        "name": "Google Drive",
+        "icon": "gdrive",
+        "id": "gdrive",
+        "source": "data analytics"
+    },
+    {
+        "name": "Local System",
+        "icon": "harddisk",
+        "id": "harddisk",
+        "source": "csv"
+    },
+    {
+        "name": "Google Analytics",
+        "icon": "ganalytics",
+        "id": "ganalytics",
+        "source": "data analytics"
+    },
+    {
+        "name": "Iceberg",
+        "icon": "iceberg",
+        "id": "ICEBERG",
+        "source": "ICEBERG"
+    },
+    {
+        "name": "DuctDB + DBT",
+        "icon": "ductdb_dbt",
+        "id": "DUCKDB",
+        "source": "DUCKDB"
+    }
+]

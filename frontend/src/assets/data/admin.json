@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Groups",
+        "icon": "mysql",
+        "source": "groups",
+        "id": "groups"
+    },
+    {
+        "name": "Roles",
+        "icon": "postgres",
+        "id": "roles",
+        "source": "roles"
+    },
+    {
+        "name": "Permissions",
+        "icon": "sqlserver",
+        "id": "sqlserver",
+        "source": "permissions"
+    }
+]

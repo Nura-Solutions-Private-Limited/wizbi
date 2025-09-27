@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "Running",
+        "id" : 1000
+    },
+    {
+        "name" : "Queued",
+        "id" : 1001
+    },
+    {
+        "name" : "Failed",
+        "id" : 1002
+    },
+    {
+        "name" : "Success",
+        "id" : 1003
+    }
+]

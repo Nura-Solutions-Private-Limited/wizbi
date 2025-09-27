@@ -1,0 +1,8 @@
+test:
+  outputs:
+    dev:
+      type: duckdb
+      path: /root/dev.duckdb
+      threads: 1
+      extensions:
+                  

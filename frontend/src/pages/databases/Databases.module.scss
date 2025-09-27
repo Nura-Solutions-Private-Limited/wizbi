@@ -1,0 +1,31 @@
+@import '../../styles/app';
+
+.root {
+  height: calc(100vh - 60px);
+
+  .wrapper {
+    .widgetBodyClass {
+      height: calc(100vh - 200px);
+      background-color: #fff;
+      overflow: auto;
+    }
+  }
+}
+
+// .connectionsWidget {
+//   background: $header-main;
+//   color: black;
+
+//   input {
+//     color: black;
+
+//     &:focus {
+//       color: black;
+//     }
+//   }
+// }
+
+.databseWidget {
+  width: 200px;
+  // height: 200px;
+}

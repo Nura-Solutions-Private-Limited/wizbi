@@ -1,0 +1,29 @@
+# dbt project name
+name: '{{ project_name }}'
+
+
+# dbt profile name
+profile: '{{ profile_name }}'
+# These configurations specify where dbt should look for different types of files.
+# The `model-paths` config, for example, states that models in this project can be
+# found in the "models/" directory. You probably won't need to change these!
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+clean-targets:         # directories to be removed by `dbt clean`
+  - "target"
+  - "dbt_packages"
+
+
+on-run-start:
+   INSTALL "iceberg";
+   LOAD "iceberg";
+   CREATE SECRET (TYPE S3, KEY_ID {{ "'{{" }} env_var("AWS_ACCESS_KEY_ID") {{ "}}'" }},SECRET {{ "'{{" }} env_var("AWS_SECRET_ACCESS_KEY") {{ "}}'" }},REGION {{ "'{{" }} env_var("AWS_REGION") {{ "}}'" }});
+
+# models:
+#   {{ dbt_model_name }}:
+#     materialized: table

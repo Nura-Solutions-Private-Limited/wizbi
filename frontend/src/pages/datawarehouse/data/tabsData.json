@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Pipeline Info",
+        "active": true,
+        "completed": false,
+        "index": 0,
+        "isStaging": false,
+        "isSMA": false
+    },
+    {
+        "name": "Metadata",
+        "active": false,
+        "completed": false,
+        "index": 1,
+        "isStaging": true,
+        "isSMA": true
+    },
+    {
+        "name": "Transformations",
+        "active": false,
+        "completed": false,
+        "index": 2,
+        "isStaging": false,
+        "isSMA": true
+    },
+    {
+        "name": "Summary View",
+        "active": false,
+        "completed": false,
+        "index": 3,
+        "isStaging": true,
+        "isSMA": true
+    }
+]

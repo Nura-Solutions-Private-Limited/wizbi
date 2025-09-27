@@ -1,0 +1,10 @@
+[
+    {
+        "name": "AI for Data Science",
+        "id": "data_science"
+    },
+    {
+        "name": "AI for Dashboards",
+        "id": "dashboards"
+    }
+]

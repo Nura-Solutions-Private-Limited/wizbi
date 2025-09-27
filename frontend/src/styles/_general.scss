@@ -1,0 +1,981 @@
+html {
+  font-weight: 100;
+  font-size: $font-size-initial;
+}
+
+body {
+  overflow-x: hidden;
+  color: #000;
+  background: #dadada;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $main-bg-color #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $main-bg-color;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
+
+a,
+.dropdown-item,
+.btn {
+  cursor: pointer;
+  transition:
+    color 0.1s ease-in-out,
+    background-color 0.1s ease-in-out,
+    border-color 0.1s ease-in-out;
+  font-family: $font-family-base;
+  text-decoration: none;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+th {
+  font-weight: 600;
+}
+
+td {
+  font-weight: 300;
+}
+
+label {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul ul,
+ol ul {
+  list-style: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.bg-wizBi {
+  background-color: $main-bg-color !important;
+  border: $main-bg-color;
+}
+
+.text-wizBi {
+  color: $main-bg-color !important;
+}
+
+.text-grey {
+  color: $gray-100;
+}
+
+.p-datatable .p-datatable-tbody > tr.p-highlight {
+  background: #042b2e45;
+  color: $main-bg-color;
+  border: 1px solid $sidebar-bg-color;
+}
+
+.admin-icon {
+  width: 100px;
+  height: auto;
+  display: flex;
+  height: 35px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  justify-content: center;
+}
+
+.admin-roles {
+  background: url("./../assets/roles.png") 90% center / cover no-repeat;
+}
+
+.admin-groups {
+  background: url("./../assets/groups.png") 90% center / cover no-repeat;
+}
+
+.admin-permissions {
+  background: url("./../assets/permissions.png") 90% center / cover no-repeat;
+}
+
+.db-entity {
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.db-entity-lg {
+  width: 3.75rem;
+  height: 3.75rem;
+}
+
+.db-entity-sm {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+.db-icon-lg {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.db-icon-sm {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  height: 100%;
+  width: 100%;
+}
+
+.sqlquery-db {
+  background: url("./../assets/sqlQuery.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.postgres-db {
+  background: url("./../assets/postgres.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mssql-db,
+.sqlserver-db {
+  background: url("./../assets/sqlserver.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mongodb-db {
+  background: url("./../assets/mongodb.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.mysql-db {
+  background: url("./../assets/mysql.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.freshdesk-db {
+  background: url("./../assets/freshdesk.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.redshift-db {
+  background: url("./../assets/redshift.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.duckdb-db {
+  background: url("./../assets/duckdb_dbt.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.iceberg-db {
+  background: url("./../assets/iceberg.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.csv-db {
+  background: url("./../assets/CSV.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.oracle-db {
+  background: url("./../assets/oracle_icon.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sqlite-db {
+  background: url("./../assets/sqlite.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.s3-db {
+  background: url("./../assets/s3.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.gdrive-db {
+  background: url("./../assets/gdrive.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.lfs-db {
+  background: url("./../assets/harddisk.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.ga-db {
+  background: url("./../assets/ganalytics.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.restapi-db {
+  background: url("./../assets/restapi.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.x-db {
+  background: url("./../assets/twitter.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.facebook-db {
+  background: url("./../assets/facebook.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.instagram-db {
+  background: url("./../assets/instagram.jpeg") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.tiktok-db {
+  background: url("./../assets/tiktok.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.linkedin-db {
+  background: url("./../assets/linkedin.png") 90% center / cover no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.holder {
+  background: url("./../assets/holder.png") 90% center / cover no-repeat;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+
+.holder-inner {
+  width: 40px;
+  height: 40px;
+  left: calc(50% - 18px);
+  top: calc(50% - 20px);
+}
+
+.form-outline {
+  position: relative;
+  width: 100%;
+}
+
+.form-outline .form-helper {
+  width: 100%;
+  position: absolute;
+  font-size: 0.875em;
+  color: #757575;
+}
+
+.form-outline .form-helper .form-counter {
+  text-align: right;
+}
+
+.form-outline .trailing {
+  position: absolute;
+  right: 10px;
+  left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.form-outline .form-icon-trailing {
+  padding-right: 2rem !important;
+}
+
+.form-outline .form-control {
+  min-height: auto;
+  padding: 0.32rem 0.75rem;
+  border: 0 !important;
+  background: transparent;
+  transition: all 0.2s linear;
+}
+
+.form-outline .form-control ~ .form-label {
+  position: absolute;
+  top: 0;
+  max-width: 90%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  left: 0.75rem;
+  padding-top: 0.37rem;
+  pointer-events: none;
+  transform-origin: 0 0;
+  transition: all 0.2s ease-out;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 0;
+}
+
+.form-outline .form-control ~ .form-notch {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  text-align: left;
+  pointer-events: none;
+}
+
+.form-outline .form-control ~ .form-notch div {
+  pointer-events: none;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  background: transparent;
+  transition: all 0.2s linear;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-leading {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0.5rem;
+  border-right: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-middle {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: calc(100% - 1rem);
+  height: 100%;
+  border-right: none;
+  border-left: none;
+}
+
+.form-outline .form-control ~ .form-notch .form-notch-trailing {
+  flex-grow: 1;
+  height: 100%;
+  border-left: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.form-outline .form-control:not(.placeholder-active)::-moz-placeholder {
+  opacity: 0;
+}
+
+.form-outline .form-control:not(.placeholder-active)::placeholder {
+  opacity: 0;
+}
+
+.form-outline .form-control.active::-moz-placeholder,
+.form-outline .form-control:focus::-moz-placeholder {
+  opacity: 1;
+}
+
+.form-outline .form-control.active::placeholder,
+.form-outline .form-control:focus::placeholder {
+  opacity: 1;
+}
+
+.form-outline .form-control:focus {
+  box-shadow: none !important;
+}
+
+.form-outline .form-control.active ~ .form-label,
+.form-outline .form-control:focus ~ .form-label {
+  transform: translateY(-1rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline .form-control:focus ~ .form-label {
+  color: $main-bg-color;
+  background: white;
+  z-index: 9;
+}
+
+.form-outline.is-invalid .form-control:focus ~ .form-label,
+.form-outline.is-invalid .form-control.active ~ .form-label {
+  color: $red;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-middle,
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+  border-color: $main-bg-color;
+  box-shadow: 0 1px 0 0 $main-bg-color;
+  border-top: 1px none;
+}
+
+.form-outline.is-invalid .form-control:focus ~ .form-notch .form-notch-middle {
+  border-color: $red;
+  box-shadow: 0 1px 0 0 $red;
+  border-top: 1px none;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-leading,
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+  border-right: none;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+  border-color: $main-bg-color;
+  box-shadow:
+    -1px 0 0 0 $main-bg-color,
+    0 1px 0 0 $main-bg-color,
+    0 -1px 0 0 $main-bg-color;
+}
+
+.form-outline.is-invalid .form-control:focus ~ .form-notch .form-notch-leading {
+  border-color: $red;
+  box-shadow:
+    -1px 0 0 0 $red,
+    0 1px 0 0 $red,
+    0 -1px 0 0 $red;
+}
+
+.form-outline .form-control.active ~ .form-notch .form-notch-trailing,
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+  border-left: none;
+}
+
+.form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+  border-color: $main-bg-color;
+  box-shadow:
+    1px 0 0 0 $main-bg-color,
+    0 -1px 0 0 $main-bg-color,
+    0 1px 0 0 $main-bg-color;
+}
+
+.form-outline.is-invalid
+  .form-control:focus
+  ~ .form-notch
+  .form-notch-trailing {
+  border-color: $red;
+  box-shadow:
+    1px 0 0 0 $red,
+    0 -1px 0 0 $red,
+    0 1px 0 0 $red;
+}
+
+.form-outline .form-control.disabled,
+.form-outline .form-control:disabled,
+.form-outline .form-control[readonly] {
+  background-color: #e9ecef;
+}
+
+.form-outline .form-control.form-control-lg {
+  font-size: 1rem;
+  line-height: 2.15;
+}
+
+.form-outline .form-control.form-control-lg ~ .form-label {
+  padding-top: 0.7rem;
+}
+
+.form-outline .form-control.form-control-lg.active ~ .form-label,
+.form-outline .form-control.form-control-lg:focus ~ .form-label {
+  transform: translateY(-1.25rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline .form-control.form-control-sm {
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  font-size: 0.775rem;
+  line-height: 1.5;
+}
+
+.form-outline .form-control.form-control-sm ~ .form-label {
+  padding-top: 0.33rem;
+  font-size: 0.775rem;
+}
+
+.form-outline .form-control.form-control-sm.active ~ .form-label,
+.form-outline .form-control.form-control-sm:focus ~ .form-label {
+  transform: translateY(-0.85rem) translateY(0.1rem) scale(0.8);
+}
+
+.form-outline.form-white .form-control {
+  color: #fff;
+}
+
+.form-outline.form-white .form-control ~ .form-label {
+  color: #fbfbfb;
+}
+
+.form-outline.form-white .form-control ~ .form-notch div {
+  border-color: #fbfbfb;
+}
+
+.form-outline.is-invalid .form-control:not(:focus) ~ .form-notch div {
+  border-color: $red !important;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-label {
+  color: #fff;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-middle {
+  border-color: #fff;
+  box-shadow: 0 1px 0 0 #fff;
+  border-top: none;
+}
+
+.form-outline.form-white .form-control:focus ~ .form-notch .form-notch-leading {
+  border-color: #fff;
+  box-shadow:
+    -1px 0 0 0 #fff,
+    0 1px 0 0 #fff,
+    0 -1px 0 0 #fff;
+}
+
+.form-outline.form-white
+  .form-control:focus
+  ~ .form-notch
+  .form-notch-trailing {
+  border-color: #fff;
+  box-shadow:
+    1px 0 0 0 #fff,
+    0 -1px 0 0 #fff,
+    0 1px 0 0 #fff;
+}
+
+.form-outline.form-white .form-control::-moz-placeholder {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.form-outline.form-white .form-control::placeholder {
+  color: hsla(0, 0%, 100%, 0.7);
+}
+
+.form-outline.form-white .form-control.disabled,
+.form-outline.form-white .form-control:disabled,
+.form-outline.form-white .form-control[readonly] {
+  background-color: hsla(0, 0%, 100%, 0.45);
+}
+
+.custom-conn-drop {
+  .p-dropdown-label.p-inputtext {
+    display: flex;
+  }
+}
+
+.custom-conn-drop input {
+}
+
+.no-action {
+  pointer-events: none !important;
+}
+
+.custom-stepper {
+  .breadcrumb {
+    padding: 0px;
+    background: #d4d4d4;
+    list-style: none;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .breadcrumb > li + li:before {
+    padding: 0;
+  }
+
+  .breadcrumb li {
+    float: left;
+  }
+
+  .breadcrumb li.active a {
+    background: $wizBi-pending-bg-color;
+  }
+
+  .breadcrumb li.completed a {
+    background: $wizBi-success-bg-color;
+  }
+
+  .breadcrumb li.active a:after {
+    border-left: 30px solid $wizBi-pending-bg-color;
+  }
+
+  .breadcrumb li.completed a:after {
+    border-left: 30px solid $wizBi-success-bg-color;
+  }
+
+  .breadcrumb li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 45px;
+    position: relative;
+    display: block;
+    float: left;
+  }
+
+  .breadcrumb li a:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid hsla(0, 0%, 83%, 1);
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 2;
+  }
+
+  .breadcrumb li a:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    /* Go big on the size, and let overflow hide */
+    border-bottom: 50px solid transparent;
+    border-left: 30px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 1px;
+    left: 100%;
+    z-index: 1;
+  }
+
+  .breadcrumb li:first-child a {
+    padding-left: 15px;
+  }
+
+  .breadcrumb li a:hover {
+    cursor: auto;
+  }
+
+  .breadcrumb li a:hover:after {
+    cursor: auto;
+  }
+}
+
+.active-item {
+  background-color: #4b7d8133 !important;
+}
+
+.wizBi-bg-pending {
+  background-color: $wizBi-pending-bg-color !important;
+  text-transform: capitalize;
+}
+
+.wizBi-bg-success {
+  background-color: $wizBi-success-bg-color !important;
+  text-transform: capitalize;
+}
+
+.badge-secondary {
+  background-color: rgba(102, 102, 102, 0.1);
+  color: rgb(93, 93, 93);
+}
+
+.badge-warning {
+  color: #fff;
+  background-color: #042b2e;
+}
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: $main-bg-color;
+}
+
+.p-dropdown:not(.p-disabled).p-focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+  border-color: none !important;
+}
+
+.p-inputtext {
+  font-family: $font-family-base;
+  color: #000;
+}
+
+.resize-none {
+  resize: none !important;
+}
+
+.background-white {
+  background-color: #fff !important;
+}
+
+.anim-arrow {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.bg-none {
+  background-color: transparent !important;
+}
+
+.list-group-item {
+  background-color: #4b7d8133;
+}
+
+/**
+* This CSS is for Dialog to set the backgroun
+*/
+
+.p-dialog {
+  .p-dialog-header,
+  .p-dialog-content,
+  .p-dialog-footer {
+    background-color: #f4f5f6 !important;
+  }
+}
+
+// .p-dropdown:not(.p-disabled).p-focus ~ .form-notch div{
+//   outline: 0 none;
+//   outline-offset: 0;
+//   box-shadow: 0 0 0 0.2rem #92b3b5;
+//   border-color: #498084;
+// }
+
+.p-dropdown:not(.p-disabled).p-focus ~ .form-notch .form-notch-leading {
+  border-color: $main-bg-color;
+  box-shadow:
+    -1px 0 0 0 $main-bg-color,
+    0 1px 0 0 $main-bg-color,
+    0 -1px 0 0 $main-bg-color;
+}
+
+.p-dropdown:not(.p-disabled).p-focus ~ .form-notch .form-notch-trailing {
+  border-color: $main-bg-color;
+  box-shadow:
+    1px 0 0 0 $main-bg-color,
+    0 -1px 0 0 $main-bg-color,
+    0 1px 0 0 $main-bg-color;
+}
+
+.p-dropdown:not(.p-disabled).p-focus ~ .form-notch .form-notch-middle {
+  border-color: $main-bg-color;
+  box-shadow: 0 1px 0 0 $main-bg-color;
+  border-top: 1px none;
+}
+
+.p-checkbox.p-highlight .p-checkbox-box,
+.p-radiobutton.p-highlight .p-radiobutton-box {
+  // border-color: #6366F1;
+  // background: #6366F1;
+  background-color: #498084 !important;
+  border: #498084 !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight.p-focus {
+  background-color: #4980843d !important;
+  border: #4980843d !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight {
+  background-color: #4980843d !important;
+  border: #4980843d !important;
+  color: #498084 !important;
+}
+.p-datatable {
+  height: 100%;
+}
+
+.-datatable .p-datatable-tbody > tr > td {
+  height: 50px;
+  /* Adjust the height as needed */
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  vertical-align: top !important;
+}
+
+.animate-container > :only-child {
+  height: 100%;
+}
+
+/* Custom styles for radio buttons */
+.ant-radio-checked .ant-radio-inner {
+  background-color: #498084 !important;
+}
+
+/* Custom styles for overriding primary color */
+.ant-btn-primary,
+.ant-btn-primary:hover,
+.ant-menu-item-selected,
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu-submenu-popup {
+  background-color: #498084;
+  border-color: #498084;
+  color: white;
+  /* Change text color to white for better contrast */
+}
+
+/* Custom styles for overriding primary color on hover */
+.ant-btn-primary:hover,
+.ant-menu-item-selected:hover,
+.ant-menu-item-active:hover,
+.ant-menu-submenu-popup:hover {
+  background-color: #498084 !important;
+  /* Darken #498084  color on hover */
+}
+
+/* Custom styles for overriding primary color on focus */
+.ant-btn-primary:focus,
+.ant-menu-item-selected:focus,
+.ant-menu-item-active:focus,
+.ant-menu-submenu-popup:focus {
+  background-color: #498084;
+  border-color: #498084;
+  box-shadow: 0 0 0 2px rgba(165, 42, 42, 0.5);
+  /* Add a shadow on focus */
+}
+
+/* Custom styles for overriding primary color on active */
+.ant-btn-primary:active,
+.ant-menu-item-selected:active,
+.ant-menu-item-active:active,
+.ant-menu-submenu-popup:active {
+  background-color: #498084;
+  /* Darken #498084  color on active state */
+}
+
+/* Custom styles for disabled state */
+.ant-btn-disabled,
+.ant-btn-primary[disabled],
+.ant-btn-primary.disabled,
+.ant-menu-item-disabled,
+.ant-menu-item-disabled:hover,
+.ant-menu-item-disabled:focus,
+.ant-menu-item-disabled:active,
+.ant-menu-item-disabled.ant-menu-submenu-popup,
+.ant-menu-item-disabled.ant-menu-submenu-popup:hover,
+.ant-menu-item-disabled.ant-menu-submenu-popup:focus,
+.ant-menu-item-disabled.ant-menu-submenu-popup:active {
+  background-color: #f5f5f5;
+  /* Use default disabled color */
+  border-color: #d9d9d9;
+  /* Use default border color */
+  color: rgba(0, 0, 0, 0.25);
+  /* Use default text color */
+}
+
+.ant-select-selector {
+  padding-top: 5px !important;
+  padding-bottom: 4px !important;
+}
+
+.ant-table-cell {
+  text-transform: capitalize;
+}
+.brand {
+  fill: $main-bg-color !important;
+  g {
+    fill: $main-bg-color !important;
+  }
+}
+
+.popupFooter {
+  position: absolute;
+  background-color: #fff !important;
+  bottom: 0;
+  z-index: 99;
+}
+
+.global-search-icon {
+  right: 10px;
+}
+
+.p-icon-field {
+  width: 100%;
+}
+
+.p-overlaypanel-content {
+  height: 100%;
+}
+
+.p-overlaypanel .p-overlaypanel-close {
+  background-color: #498084;
+}

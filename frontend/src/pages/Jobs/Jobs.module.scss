@@ -1,0 +1,17 @@
+.root {
+  height: calc(100vh - 20px);
+  overflow: hidden;
+  .wrapper {
+    height: 100%;
+    .widgetBodyClass {
+      height: 100%;
+      overflow: auto;
+      background-color: #fff;
+    }
+  }
+}
+
+.airflowIcon {
+  width: 20px;
+  height: 20px;
+}
